@@ -1,4 +1,4 @@
 # HeartRateMonitor
-Major Project
-Koi bhi dikkat ho do contact.
-Abhi ke liye ignore arduino scripts folder
+_Major Project._ <br>
+Koi bhi dikkat ho do contact.<br>
+Abhi ke liye ignore arduino scripts folder.
