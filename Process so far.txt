@@ -1,0 +1,13 @@
+Basic plan hai:
+. Arduino board se pulse sense karo
+. IDE se export karao
+. webpage pe display karao.
+
+Kyunki abhi board available nhi hai isliye humlog ek python script se pulse data simulate kara rahe hai.
+
+Ab webpage me currently do files hai, index.html aur script.js (Website folder me). Pulse Data webpage pe display karwane ke liye index.html ko provide karna padega. Ye humlog js se provide karwayenge. Pulse data script.js me bhi simulate ho sakta hai but kyunki ek samay me data bahar se import karna padega(jab board lagake sense karenge), humlog abhi se hi aise script.js me bahar(simulated_pulse.py in PulseSimulation folder) se import kara rahe hai. Jab board lagega tab hopefully scrpit me sirf source change karna padega baki logic same rahega.
+
+Ab data transfer kaise hoga data simulated_pulse.py se script.js me? Iske liye hume ek server banana padega. Ek server basically kisi browser ki request ko reply bhejta hai. Toh humlog apne script.js se iss server ko request bhejenge aur woh server humlog ko pulse data wapas bhejega. 
+Server humlog Flask se bana rahe hai, joki humlog apni python script mai include kar rahe hai. Isse humlog ki simulate_pulse.py ek server me convert ho gayi hai aur jab bhi  script.js request karega python file reply karegi pulse data. 
+
+Ye data json format me bheja jayega. 

@@ -1,0 +1,11 @@
+1. Arduino ide downloaded. Couldn't simulate pulse data without a board. Sketch doesn't run without uploading.
+2. Made python script to simulate pulse data.
+3. Made basic webpage to show pulse data.
+4. Script in java to update webpage.
+5. Setup server?
+6. Flask installed.
+7. Flask makes server in python script that simulates heart rate.
+8. JS can't get data from python script? 
+9. Flask CORS installed. Js can now receive reply from script turned web application.
+10.Heart rate displayed. Shreya aage karegi.
+11.Happy :)
