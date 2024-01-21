@@ -12,5 +12,6 @@ __HOW TO RUN ON YOUR COMPUTER__
 * Jis folder me ye files stored hai usko open karein. Fir open in terminal(right click -> Open in Terminal)
 * run: python simulated_pulse.py
 * vs kholkar index.html aur script.js compile karke chalaye. Agar live server hai toh web browser automatcally khul jana chahiye.
-* Enjoy your random pulse rate
-  
+* Enjoy your random pulse rate<br>
+  **OR**<br>
+ Open vs code and clone this repository.(Better way)
